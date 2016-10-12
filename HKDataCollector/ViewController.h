@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <HealthKit/HealthKit.h>
 @interface ViewController : UIViewController
-
+{
+    HKHealthStore *healthStore;
+}
 
 @end
-
